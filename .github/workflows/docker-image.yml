@@ -37,8 +37,8 @@ jobs:
     - name: patch invidious main repo
       run: |
         cd invidious
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "umair@tesla.com.ai"
+        git config --global user.name "uakbr"
         git am ../patches/*.patch
         sed -i 's/https:\/\/invidious.io\/donate\//\/donate/g' src/invidious/views/template.ecr
         
