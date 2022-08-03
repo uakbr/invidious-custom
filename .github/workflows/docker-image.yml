@@ -70,8 +70,8 @@ jobs:
     - name: patch invidious API repo
       run: |
         cd invidious
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "umair@tesla.com.ai"
+        git config --global user.name "uakbr"
         git am ../patches-api/*.patch
 
     - name: Build and push alpine docker image with API only
